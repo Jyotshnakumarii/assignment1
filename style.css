@@ -80,7 +80,7 @@
 
 
 
-/*@media(min-width:2560px){
+@media(min-width:2560px){
     #calc{
       width: 100%;
       padding: 26px;
@@ -133,7 +133,7 @@
     margin-left: -10px;
   }
   .equal {
-    padding: 120px 27px 120px 27px;
+    padding: 120px 36px 116px 27px;
     margin-left: 6.8px;
   }
   #input{
@@ -141,17 +141,25 @@
   }
   }
   @media(max-width:770px){
+  
   .operator {
-    width: 20.7%;
-  }
-  .clear {
-    width: 24.4%;
-    padding: 6px;
-  }
+    width: 19.4%;
+}
+.clear {
+  width: 24.4%;
+  padding: 18px;
+}
   #input {
     width: 88.7%;
   }
+  .digit{
+    width: 26%;
   }
+  .equal {
+    padding: 119px 21px 117px 23px;
+    margin-left: 5.8px;
+  }
+}
   @media(max-width:450px){
   #calc {
     padding: 6px;
@@ -186,7 +194,13 @@
     margin-left: 4px;
     font-size: 0.6rem;
   }
-  }*/
+  #result{
+    width: 74.7%;
+  }
+  .operator {
+    width: 19.4%;
+}
+ }
   
   
   

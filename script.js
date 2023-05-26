@@ -25,13 +25,7 @@ function addToDisplay(value) {
 
     // DECIMAL :-   //
 
-    // decimal comes more than once in a numbe
-    if (
-        value === '.' &&
-        (input.value.slice(-2) === '..' || input.value.slice(-3) === '...')
-    ) {
-        return;
-    }
+    
     //  decimal comes in the starting of the expression
     if (
         value === '.' &&
@@ -129,7 +123,7 @@ function calculate() {
             decimalCount = 0;
         }
     }
-    // operator comes between the operands
+    // operator comes between the number
     let operatorCount = 0;
     for (let i = 0; i < equation.length; i++) {
         if (
@@ -145,7 +139,7 @@ function calculate() {
         }
     }
     // last character is an operator
-    let lastChar = equation.slice(-1);
+    /*let lastChar = equation.slice(-1);
     if (
         lastChar === '+' || lastChar === '-' || lastChar === '*' || lastChar === '/'
     ) {
@@ -159,7 +153,7 @@ function calculate() {
         let result = calculateExpression('0' + equation);
         input.value = result;
         return;
-    }
+    }*/
 
     //    Evaluate expression using the  calculateExpression () function and set the result as the value of the text box 
     let result = calculateExpression(equation);
