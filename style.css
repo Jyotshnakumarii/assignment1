@@ -1,0 +1,201 @@
+#container {
+  width: 100%;
+
+}
+
+#calculator {
+  margin: auto;
+  width: 32%;
+  padding: 22px 7px 22px 22px;
+  border: 3px solid #eeeeee;
+}
+
+
+.operator {
+  width: 21.5%;
+  background-color: #e1e1e1;
+  color: black;
+  boder: 2px solid #d7d7d7;
+  padding: 18px;
+  margin: 5px;
+  font-size: 15px;
+}
+
+.digit {
+  width: 28.7%;
+  background-color: #fafafa;
+  color: black;
+  boder: 2px solid #eeeeee;
+  padding: 18px;
+  margin: 5px;
+  font-size: 15px;
+}
+
+.clear {
+  width: 28.7%;
+  background-color: #fafafa;
+  color: black;
+  boder: 2px solid #eeeeee;
+  padding: 18px;
+  margin: 5px;
+  font-size: 15px;
+}
+
+
+.equal {
+  padding: 115px 48px 120px 45px;
+  background-color: #429eff;
+  color: black;
+  boder: 1px solid #429eff;
+  margin: 5px;
+  font-size: 15px;
+  margin-left: -5px;
+}
+
+.down {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.left {
+  width: 77%;
+}
+
+.right {
+  width: 25%;
+}
+
+#result {
+  width: 91.7%;
+  height: 66px;
+  boder: 2px solid #eeeeee;
+  padding: 10px;
+  margin: auto;
+  float: left;
+  font-size: 1.55rem;
+}
+
+
+
+
+
+
+/*@media(min-width:2560px){
+    #calc{
+      width: 100%;
+      padding: 26px;
+    }
+    .calculator_box{
+      margin-left: 38px;
+  }
+    input {
+      width: 30.4%;
+      font-size: 2rem;
+    }
+    .equal{
+      padding: 120px 77px 120px 78px;
+      margin-left: -37px;
+    }
+    .digit {
+      width: 28.5%;
+    }
+    .clear{
+      font-size: 1rem;
+    }
+    .abc {
+      width: 88.4%;
+  }
+  }
+  @media(max-width:1470px){
+  input {
+    width: 28.5%;
+  }
+  .equal {
+    padding: 120px 42px 120px 45px;
+    margin-left: -2.2px;
+  }
+  #input{
+    width: 90.1%;
+  }
+  }
+  @media(max-width:1050px){
+    .operator {
+      width: 20.7%;
+    }
+    .digit {
+      width: 27.6%;
+    }
+    .clear {
+      width: 26.7%;
+      padding: 18px;
+  }
+  .calculator_box{
+    margin-left: -10px;
+  }
+  .equal {
+    padding: 120px 27px 120px 27px;
+    margin-left: 6.8px;
+  }
+  #input{
+    width: 88.4%;
+  }
+  }
+  @media(max-width:770px){
+  .operator {
+    width: 20.7%;
+  }
+  .clear {
+    width: 24.4%;
+    padding: 6px;
+  }
+  #input {
+    width: 88.7%;
+  }
+  }
+  @media(max-width:450px){
+  #calc {
+    padding: 6px;
+  }
+  .clear {
+    width: 27.4%;
+    padding: 4px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin:1px;
+  }
+  #input {
+    width: 88.7%;
+  }
+  }
+  @media (max-width: 400px){
+  .clear {
+    width: 26.4%;
+    padding: 2px;
+  }
+  #input {
+    width: 88.7%;
+  }
+  }
+  @media (max-width: 350px){
+  .clear {
+    width: 25.4%;
+    padding: 0px;
+  }
+  .equal {
+    padding: 56px 10px 58px 2px;
+    margin-left: 4px;
+    font-size: 0.6rem;
+  }
+  }*/
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="formstyle">
+        <form name="form1">
+
+            <div id="container">
+                <div id="calculator">
+                    <div class="calculator_box">
+                       <textarea name="answer" id="result" cols="30" rows="10"></textarea>
+
+                        <div id="keys">
+
+                            <input class="operator" type="button" value="+" onclick="addOperator('+')">
+                            <input class="operator" type="button" value="-" onclick="addOperator('-')">
+                            <input class="operator" type="button" value="*" onclick="addOperator('*')">
+                            <input class="operator" type="button" value="/" onclick="addOperator('/')">
+                            <div class="down">
+                                <div class="left">
+                                    <input class="digit" type="button" value="7" onclick="addDigit('7')">
+                                    <input class="digit" type="button" value="8" onclick="addDigit('8')">
+                                    <input class="digit" type="button" value="9" onclick="addDigit('9')">
+                                    <div class="row">
+                                        <input class="digit" type="button" value="4" onclick="addDigit('4')">
+                                        <input class="digit" type="button" value="5" onclick="addDigit('5')">
+                                        <input class="digit" type="button" value="6" onclick="addDigit('6')">
+                                    </div>
+                                    <div class="row">
+                                        <input class="digit" type="button" value="1" onclick="addDigit('1')">
+                                        <input class="digit" type="button" value="2" onclick="addDigit('2')">
+                                        <input class="digit" type="button" value="3" onclick="addDigit('3')">
+                                    </div>
+                                    <div class="row">
+                                        <input class="digit" type="button" value="0" onclick="addDigit('0')">
+                                        <input class="digit" type="button" value="." onclick="addDecimal()">
+                                        <input class="clear" type="button" value="C" onclick="clearAnswer()">
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <input class="equal" type="button" value="=" onclick="calculateResult()">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </form>
+    </div>
+    <script src="./script.js"></script>
+
+
+</body>
+
+</html>
